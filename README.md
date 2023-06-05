@@ -4,6 +4,8 @@ This repository contains the training script to train a SciBERT model for the ta
 
 Use the Claim_Extraction_Training.ipynb notebook to train a [SCIBert](https://huggingface.co/allenai/scibert_scivocab_uncased) model with your own labelled claim data. Follow the commented instructions to upload and process your files correctly.
 
+Use the Claim_Extraction_Gradio.ipynb notebook to deploy the model as a web-app for extracting claims from an abstract using Gradio.
+
 Our model trained on a SCORE dataset achieves the following results on the test set - 
 -  Accuracy: 0.931597
 -  Precision: 0.764563
